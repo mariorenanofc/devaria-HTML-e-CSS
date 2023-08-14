@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description"  content="O Polo da Sorte é um site de Apostas com fins de  estudos e desenvolvimento de projeto.">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="O Polo da Sorte é um site de Apostas com fins de  estudos e desenvolvimento de projeto.">
     <meta name="keywords" content="Jogos, Polo da Sorte, Polo, Ganhar, Dinheiro" />
     <meta http-equiv="refresh" content="300">
     <meta name="author" content="Polo da Sorte">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fale Conosco</title>
-  </head>
-  <body>
-    <header>
-      <h1>Polo da Sorte</h1>
-      <nav>
-        <ul>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="jogos.html">Jogos</a></li>
-            <li><a href="ganhadores.html">Ganhadores</a></li>
-            <li><a href="faleconosco.html">Fale Conosco</a></li>
-        </ul>
-      </nav>
+    <link rel="stylesheet" href="public/css/faleconosco.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Polo da Sorte</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="ganhadores.html">Ganhadores</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <h2>
-        Para entrar em contato com o Polo da Sorte preeencha esse formulário
-        abaixo:
-      </h2>
-      <section>
-        <form action="index.html">
-          <p>
-            <label>Nome: </label>
-            <input type="text" name="Nome" maxlength="59" required />
-          </p>
-          <p>
-            <label>Email: </label>
-            <input type="email" name="Email" maxlength="88" required />
-          </p>
-          <p>
-            <label>Comentário: </label>
-            <textarea name="Comentario" cols="50" rows="4" required></textarea>
-          </p>
-          <p>
-            <label> Gênero: </label>
-            <input type="radio" name="sexo" /><label for="">Masculino</label>
-            <input type="radio" name="sexo" /><label for="">Feminino</label>
-
-            <br /><strong
-              >Porfavor selecionar uma das opções que melhor lhe define!</strong
-            >
-          </p>
-          <p>
-            <label>Oque te trouxe até aqui?Fala pra gente!</label>
-            <select name="lugar">
-              <option value="" selected>Selecione</option>
-              <option value="">Google</option>
-              <option value="">Instagram</option>
-              <option value="">Email</option>
-              <option value="">Vendedores</option>
-            </select>
-          </p>
-
-          <p>
-            <input type="checkbox" name="novidades" value="Aceite" />
-            <label>Receber notificações!</label>
-          </p>
-          <p>
-            <input type="submit" name="Enviar" value="Enviar" />
-            <input type="reset" name="Limpar" value="Limpar" />
-          </p>
-        </form>
-      </section>
+    <main class="main">
+        <h2 class="main-title">
+            Para entrar em contato com o Polo da Sorte preencha esse formulário
+            abaixo:
+        </h2>
+        <section class="section">
+            <form action="index.html" class="form">
+                <p>
+                    <label>Nome:</label>
+                    <input type="text" name="Nome" maxlength="59" required />
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input type="email" name="Email" maxlength="88" required />
+                </p>
+                <p>
+                    <label>Comentário:</label>
+                    <textarea name="Comentario" cols="50" rows="4" required></textarea>
+                </p>
+                <p>
+                  <label>Gênero:</label>
+                  <select name="sexo">
+                      <option value="masculino">Masculino</option>
+                      <option value="feminino">Feminino</option>
+                  </select>
+                  <br /><strong>Por favor, selecione uma das opções que melhor lhe define!</strong>
+              </p>
+                <p>
+                    <label>O que te trouxe até aqui? Fala pra gente!</label>
+                    <select name="lugar">
+                        <option value="" selected>Selecione</option>
+                        <option value="Google">Google</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Email">Email</option>
+                        <option value="Vendedores">Vendedores</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="novidades" value="Aceite" />
+                    <label>Receber notificações!</label>
+                </p>
+                <p>
+                    <input type="submit" name="Enviar" value="Enviar" />
+                    <input type="reset" name="Limpar" value="Limpar" />
+                </p>
+            </form>
+        </section>
     </main>
-    <footer>
-      <section>
-        <p>
-          <span>contato@polodasorte.com.br</span> <br />
-          <span>Conheça nossas redes Sociais!</span>
-        </p>
-
-        <p>&copy; 2023 Polo da Sorte. Todos os direitos reservados.</p>
-      </section>
+    <footer class="footer">
+        <section>
+            <p>
+                <span>contato@polodasorte.com.br</span> <br />
+                <span>Conheça nossas redes Sociais!</span>
+            </p>
+            <p>&copy; 2023 Polo da Sorte. Todos os direitos reservados.</p>
+        </section>
     </footer>
-  </body>
+</body>
 </html>
