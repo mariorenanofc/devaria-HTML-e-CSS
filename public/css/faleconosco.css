@@ -13,25 +13,6 @@ body {
     color: #1C6C2C;
 }
 
-/* Estilos do cabeçalho */
-header {
-    background-color: #FCD42C;
-    padding: 10px;
-    text-align: center;
-    color: #1C6C2C;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
 /* Estilos do conteúdo principal */
 main {
     padding: 20px;
@@ -93,22 +74,6 @@ form input[type="submit"]:hover,
 form input[type="reset"]:hover {
     background-color: #5C9474;
 }
-/* Estilos do rodapé */
-footer {
-    background-color: #FCD42C;
-    color: #1C6C2C;
-    padding: 20px 0;
-    text-align: center;
-}
-
-footer p {
-    margin-bottom: 10px;
-}
-
-footer span {
-    font-weight: bold;
-}
-
 /* Estilos para links */
 a {
     color: #5C9474;

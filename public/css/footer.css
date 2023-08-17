@@ -1,0 +1,19 @@
+/* Estilos do rodapé */
+footer {
+    background-color: #FCD42C;
+    color: #1C6C2C;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer section {
+    margin-left: 10px;
+}

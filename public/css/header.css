@@ -1,0 +1,48 @@
+/* Estilos do cabeçalho */
+header {
+    text-align: center;
+    background-color: #FCD42C;
+    padding: 10px;
+    color: #1C6C2C;
+}
+
+.logo  {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo a {
+    width: 5%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.logo a img {
+    max-width:100%;
+    height: auto;
+}
+
+.nav-bar  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #FCD42C;
+    color: #1C6C2C;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
